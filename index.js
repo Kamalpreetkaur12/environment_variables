@@ -2,7 +2,7 @@ import express from "express";
 import dotenv from 'dotenv';
 import { errorHandler, unknown } from "./middleware/index.js";
 const app = express();
-const PORT = 4000;
+const PORT =process.env.PORT|| 4000;
 
 
 
